@@ -55,12 +55,10 @@ class GameModel: NSObject {
     
     func queueMove(direction: MoveDirection, onCompletion: @escaping (Bool) -> ()) {
         guard queue.count <= maxCommands else {
-            // Queue is wedged. This should actually never happen in practice.
             return
         }
         queue.append(MoveCommand(direction: direction, completion: onCompletion))
         if !timer.isValid {
-            // Timer isn't running, so fire the event immediately
             timerFired(timer)
         }
     }
