@@ -14,6 +14,9 @@
 		18763B8C2146D3F300A64E2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18763B8A2146D3F300A64E2A /* LaunchScreen.storyboard */; };
 		18763B952146D43100A64E2A /* gameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763B942146D43100A64E2A /* gameModel.swift */; };
 		18763B982146D81400A64E2A /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763B972146D81400A64E2A /* ScoreView.swift */; };
+		18763B9A2146DED000A64E2A /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763B992146DED000A64E2A /* TileView.swift */; };
+		18763B9C2146E02500A64E2A /* AppearanceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763B9B2146E02500A64E2A /* AppearanceProvider.swift */; };
+		18763B9E2146E27B00A64E2A /* NumberTileGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763B9D2146E27B00A64E2A /* NumberTileGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		18763B8D2146D3F300A64E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18763B942146D43100A64E2A /* gameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameModel.swift; sourceTree = "<group>"; };
 		18763B972146D81400A64E2A /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		18763B992146DED000A64E2A /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		18763B9B2146E02500A64E2A /* AppearanceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceProvider.swift; sourceTree = "<group>"; };
+		18763B9D2146E27B00A64E2A /* NumberTileGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTileGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,8 @@
 				18763B882146D3F300A64E2A /* Assets.xcassets */,
 				18763B8A2146D3F300A64E2A /* LaunchScreen.storyboard */,
 				18763B8D2146D3F300A64E2A /* Info.plist */,
+				18763B9B2146E02500A64E2A /* AppearanceProvider.swift */,
+				18763B9D2146E27B00A64E2A /* NumberTileGame.swift */,
 			);
 			path = "2048-clone";
 			sourceTree = "<group>";
@@ -82,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				18763B972146D81400A64E2A /* ScoreView.swift */,
+				18763B992146DED000A64E2A /* TileView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,9 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18763B9E2146E27B00A64E2A /* NumberTileGame.swift in Sources */,
 				18763B842146D3F200A64E2A /* ViewController.swift in Sources */,
 				18763B982146D81400A64E2A /* ScoreView.swift in Sources */,
+				18763B9C2146E02500A64E2A /* AppearanceProvider.swift in Sources */,
 				18763B822146D3F200A64E2A /* AppDelegate.swift in Sources */,
+				18763B9A2146DED000A64E2A /* TileView.swift in Sources */,
 				18763B952146D43100A64E2A /* gameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
